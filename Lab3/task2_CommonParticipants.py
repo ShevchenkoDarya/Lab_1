@@ -11,3 +11,8 @@ participants_first_group = "Иванов|Петров|Сидоров"
 participants_second_group = "Петров|Сидоров|Смирнов"
 
 print(find_common_participants(participants_first_group, participants_second_group))
+
+participants2_first_group = "Иванов,Петров,Сидоров"
+participants2_second_group = "Петров,Сидоров,Смирнов"
+
+print(find_common_participants(participants2_first_group, participants2_second_group))
